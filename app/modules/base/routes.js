@@ -5,15 +5,15 @@ angular.module('app').config([
         'use strict';
 
         $routeProvider.when('/', {
-            templateUrl: 'app/modules/base/index.html',
+            templateUrl: 'app/modules/base/views/index.html',
         });
 
         $routeProvider.when('/events', {
-            templateUrl: 'app/modules/base/events.html',
+            templateUrl: 'app/modules/base/views/events.html',
         });
 
         $routeProvider.when('/projects', {
-            templateUrl: 'app/modules/base/projects.html',
+            templateUrl: 'app/modules/base/views/projects.html',
         });
 
         $routeProvider.otherwise({
