@@ -16,6 +16,10 @@ angular.module('app').config([
             templateUrl: 'app/modules/base/views/projects.html',
         });
 
+        $routeProvider.when('/dev/guide', {
+            templateUrl: 'app/modules/base/views/dev-guide.html',
+        });
+
         $routeProvider.otherwise({
             templateUrl: '404-template.html',
         });
