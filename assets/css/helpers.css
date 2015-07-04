@@ -21,3 +21,7 @@
 .third {
     width: 33.33333%;
 }
+
+.outlined {
+    border: 1px dotted rgb(54, 79, 144);
+}
