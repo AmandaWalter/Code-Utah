@@ -25,3 +25,9 @@
 .outlined {
     border: 1px dotted rgb(54, 79, 144);
 }
+
+.left {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
