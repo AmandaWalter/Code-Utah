@@ -64,6 +64,8 @@ angular.module('app').directive('markupViewer', function () {
 
             snippet.innerText = removeLeadingWhitespace(node.innerHTML);
             snippet.title = 'Code Sample';
+            snippet.className = 'markdown-viewer-output';
+
             node.appendChild(snippet);
         }
     };
