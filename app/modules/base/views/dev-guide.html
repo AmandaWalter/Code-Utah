@@ -7,35 +7,45 @@
     required, <a href="https://css-tricks.com/bem-101/">BEM</a> conventions
     should be followed. When possible (and when styles are not intended to be
     shared accross pages), create a <code>.css</code> file per
-    <code>.html</code> view file.</p>
+    <code>.html</code> file.</p>
 </section>
 
 <section class="doc__section">
     <h2 class="doc__header">Text</h2>
 
-    <h1>Section</h1>
-    <h2>Sub-section</h2>
-    <h3>Sub-sub-section</h3>
+    <div markup-viewer>
+        <h1>Section</h1>
+        <h2>Sub-section</h2>
+        <h3>Sub-sub-section</h3>
+    </div>
 
-    <p>This is a paragraph with <code>a snipped</code> of code.</p>
+    <div markup-viewer>
+        <p>This is a paragraph with <code>a snipped</code> of code.</p>
 
-    <p>Et ultrices posuere cubilia Curae; Proin luctus, odio eu porttitor
-    adipiscing, ante elit tristique tortor, sit amet malesuada tortor nisi sit
-    amet neque.  Praesent rhoncus eros non velit. Pellentesque mattis. Sed sit
-    amet ante. Mauris ac nibh eget risus volutpat tempor. Praesent volutpat
-    sollicitudin dui. Sed in tellus id urna viverra commodo. Vestibulum enim
-    felis, interdum non, sollicitudin in, posuere a, sem. Cras nibh.</p>
+        <p>Et ultrices posuere cubilia Curae; Proin luctus, odio eu porttitor
+        adipiscing, ante elit tristique tortor, sit amet malesuada tortor nisi
+        sit amet neque.  Praesent rhoncus eros non velit. Pellentesque mattis.
+        Sed sit amet ante. Mauris ac nibh eget risus volutpat tempor. Praesent
+        volutpat sollicitudin dui. Sed in tellus id urna viverra commodo.
+        Vestibulum enim felis, interdum non, sollicitudin in, posuere a, sem.
+        Cras nibh.</p>
 
-    <p>Sed facilisis ultrices dolor. Vestibulum pretium mauris sed turpis.
-    Phasellus a pede id odio interdum elementum. Nam urna felis, sodales ut,
-    luctus vel, condimentum vitae, est. Vestibulum ut augue. Nunc laoreet
-    sapien quis neque semper dictum. Phasellus rhoncus.</p>
+        <p>Sed facilisis ultrices dolor. Vestibulum pretium mauris sed turpis.
+        Phasellus a pede id odio interdum elementum. Nam urna felis, sodales
+        ut, luctus vel, condimentum vitae, est. Vestibulum ut augue. Nunc
+        laoreet sapien quis neque semper dictum. Phasellus rhoncus.</p>
+    </div>
+</section>
 
-    <pre><code>; a block of code
+<section class="doc__section">
+    <h2 class="doc__header">Code</h2>
+    <div markup-viewer>
+        <pre><code>; a block of code
 
 (defun factorial (n)
     (if (= n 0) 1
         (* n (factorial (- n 1)))))</code></pre>
+    </div>
 </section>
 
 <section class="doc__section">

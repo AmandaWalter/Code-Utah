@@ -14,3 +14,8 @@
     position: absolute;
     width: 2px;
 }
+
+[markup-viewer] + [markup-viewer] {
+    border-top: 1px solid rgb(244, 244, 244);
+    margin-top: 40px;
+}
